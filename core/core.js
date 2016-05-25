@@ -2,9 +2,8 @@ import DataLoader from './data.js';
 import Distance from './distance.js';
 import _ from 'lodash';
 
-class main{
+class Core{
     constructor(){
-        this.execute();
     }
     
     async execute(){
@@ -15,9 +14,7 @@ class main{
 
         let dist = new Distance();
         var citiesInRadius = dist.getCitiesInRadius(radius, origin, cities);
-        console.log(_.map(citiesInRadius, (c) => { return c.city; }));
+        return _.map(citiesInRadius, (c) => { return c.city; });
     }
 }
-export default main;
-
-let m = new main();
+export default Core;
