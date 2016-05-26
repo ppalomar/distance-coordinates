@@ -53,7 +53,5 @@ npm start
 ## Execute unit tests
 ```bash
 npm test
-
-# Test create a folder of coverage each time is ran
 ```
 
