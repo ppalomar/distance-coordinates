@@ -2,12 +2,17 @@
 
 Tech used:
 
-- Javascript ES6
-- Webpack
-- Babel
+- javascript ES6
+- webpack
+- webpack-dev-server
+- babel
 - react
 - jquery
 - lodash
+- karma
+- jasmine
+- sinon
+- eslint
 
 
 ## Install and Run
