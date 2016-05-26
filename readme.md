@@ -42,4 +42,9 @@ npm start
 # Expected result -> Aberdeen, Belfast, Birmingham, Cardiff, Cork (city), Douglas, Dublin, Edinburgh, Glasgow, Greenwich, Leeds, Liverpool, London, Manchester
 
 # Also in the Console of the browser we can see the distance of each city from Dublin in a format like: 'From: Dublin To: Madrid Distance: 1451.1880462200738 km' 
+
+## Execute unit tests
+npm test
+
+# Test create a folder of coverage each time is ran
 ```
