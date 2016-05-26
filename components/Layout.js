@@ -21,7 +21,7 @@ export default class Layout extends React.Component {
 
   render() {
     return (
-        <div>
+        <div class='main-div'>
          { this.state.cityNames }
         </div>
     );
