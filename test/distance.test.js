@@ -4,8 +4,8 @@ describe("distance.js tests", function() {
   let instance;
   
   it("check that the distance between cities is calculated properly ", function() {
-    let origin ={ lat: 39.4666667, lon: -0.3666667 }; //Valencia
-    let destiny ={ lat: 40.415363, lon: -3.707398 }; //Madrid
+    let origin ={ lat: 39.4666667, lon: -0.3666667, city: 'Valencia' }; 
+    let destiny ={ lat: 40.415363, lon: -3.707398, city: 'Madrid' }; 
                    
     instance = new Distance();
     var result = instance.getDistance(origin, destiny);
