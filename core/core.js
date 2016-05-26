@@ -1,11 +1,9 @@
-import DataLoader from './data.js';
-import Distance from './distance.js';
 import _ from 'lodash';
 
 class Core{
-    constructor(){
-        this.data = new DataLoader();
-        this.dist = new Distance();
+    constructor(data, dist){
+        this.data = data;
+        this.dist = dist;
         this.origin = { lat: 53.333, lon: -6.267 };
         this.radius = 500;
     }
