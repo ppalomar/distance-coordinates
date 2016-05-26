@@ -48,8 +48,12 @@ npm start
 
 # Also in the Console of the browser we can see the distance of each city from Dublin in a format like: 'From: Dublin To: Madrid Distance: 1451.1880462200738 km' 
 
+
+```
 ## Execute unit tests
+```bash
 npm test
 
 # Test create a folder of coverage each time is ran
 ```
+
