@@ -10,7 +10,7 @@ Tech used:
 - lodash
 
 
-## Install
+## Install and Run
 ```bash
 git clone git@github.com:ppalomar/distance-coordinates.git
 cd distance-coordinates
@@ -33,4 +33,13 @@ npm install
 npm start
 
 # Applciation url: http://localhost:8080/webpack-dev-server
+
+# sometimes webpack-dev-server fails on windows depend on the node version and windows architecture, if fails do this:
+ webpack --progress --colors --watch
+
+# And open in a browser the file index.html
+
+# Expected result -> Aberdeen, Belfast, Birmingham, Cardiff, Cork (city), Douglas, Dublin, Edinburgh, Glasgow, Greenwich, Leeds, Liverpool, London, Manchester
+
+# Also in the Console of the browser we can see the distance of each city from Dublin in a format like: 'From: Dublin To: Madrid Distance: 1451.1880462200738 km' 
 ```
