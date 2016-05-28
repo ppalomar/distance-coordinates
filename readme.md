@@ -55,7 +55,6 @@ npm start
 npm test
 ```
 
-```
 ## Bonus: Python 3.4 script
 ```bash
 # open a terminal in python-solution folder and run:
