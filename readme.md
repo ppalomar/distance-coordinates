@@ -59,5 +59,9 @@ npm test
 ```bash
 # open a terminal in python-solution folder and run:
 python run.py
+
+# note: be sure that you are running the correct python version.
+# to check you version run:
+python --version
 ```
 
