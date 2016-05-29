@@ -1,20 +1,20 @@
 import urllib.request
 import json
 
-def getData():
+def get_data():
     url = 'https://gist.githubusercontent.com/mwtorkowski/16ca26a0c072ef743734/raw/2aa20e8de9f2292d58a4856602c1f0634d8611a7/cities.json'
     with urllib.request.urlopen(url) as response:
-        jsonObj = toJson(response.read())
-        citiesDict = mapInList(jsonObj) 
-        return citiesDict
+        json_obj = to_json(response.read())
+        cities_dict = map_in_list(json_obj) 
+        return cities_dict
 
-def toJson(dataBytes):
-    return json.loads(dataBytes.decode('utf8'))
+def to_json(data_bytes):
+    return json.loads(data_bytes.decode('utf8'))
     
-def mapInList(jsonArray):
+def map_in_list(json_array):
     list = []
-    for key in jsonArray.keys():
-        list.append(jsonArray[key])
+    for key in json_array.keys():
+        list.append(json_array[key])
     return list
     
 if __name__ == '__main__':
