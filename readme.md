@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/ppalomar/distance-coordinates/badge.svg?branch=master)](https://coveralls.io/github/ppalomar/distance-coordinates?branch=master)
+
 ## Distance Between Coordinates
 
 Tech used:
