@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ppalomar/distance-coordinates.svg?branch=master)](https://travis-ci.org/ppalomar/distance-coordinates)
+
 [![Coverage Status](https://coveralls.io/repos/github/ppalomar/distance-coordinates/badge.svg?branch=master)](https://coveralls.io/github/ppalomar/distance-coordinates?branch=master)
 
 ## Distance Between Coordinates
